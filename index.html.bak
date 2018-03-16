@@ -9,10 +9,9 @@
     </style>
   </head>
   <body class="cuerpo">
-    <nav class="parrafo"> 
-      <a href="ejerciciosTema2/nosotros.html">-Nosotros-</a> 
-      <a href="ejerciciosTema2/nuestrosServicios.html">-Nuestros Servicios-</a> 
-      <a href="https://es.wikipedia.org/wiki/Educaci%C3%B3n_superior">-Wikipedia-</a> 
+    <nav class="parrafo"> <a href="ejerciciosTema2/nosotros.html"> - Nosotros - </a>
+      <a href="ejerciciosTema2/nuestrosServicios.html"> - Nuestros Servicios - </a> 
+      <a href="https://es.wikipedia.org/wiki/Educaci%C3%B3n_superior"> - Wikipedia - </a>
     </nav>
   </body>
 </html>
