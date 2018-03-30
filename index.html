@@ -1,18 +1,228 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Mi primera página WEB</title>
-    <style>
-      .parrafo {background-color:#faf3dd;text-align:center;}
-      .cuerpo {background-color:#c8d5b9}
-    </style>
-  </head>
-  <body class="cuerpo">
-    <nav class="parrafo"> 
-      <a href="ejerciciosTema2/nosotros.html">-Nosotros-</a> 
-      <a href="ejerciciosTema2/nuestrosServicios.html">-Nuestros Servicios-</a> 
-      <a href="https://es.wikipedia.org/wiki/Educaci%C3%B3n_superior">-Wikipedia-</a> 
-    </nav>
-  </body>
-</html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <title>Mi página con Etiquetas Semánticas</title>
+  <style>
+      body {
+        width: 80%;    
+        margin: 0 auto;
+        font: 10pt/1.5em Helvetica,"Helvetica neue", Arial, sans-serif;   
+        background: #eee9df url(imagenes/tile1.png) center top repeat;
+      }
+      h1 {
+        font: 18pt Helvetica,"Helvetica neue", Arial, sans-serif;    
+        text-transform: uppercase;
+        color: #e5b7ad;    
+        padding-top: 30px ;
+      }
+      body > header {    
+        padding:0px;
+        text-align: center;  
+        overflow: auto;
+      }
+      body > header > h1 {
+        float:left;
+        width: 75%;
+        font: 32pt Helvetica,"Helvetica neue", Arial, sans-serif;    
+        text-align: center;
+      }
+      body > header > picture {
+        float:left;
+        width: 20%;
+      }
+      body > header > picture > img {
+        width: 100%;
+      }
+
+      body > section {	
+        float: right;
+        width: 70%;	
+        padding-left: 20px;
+        margin: 0 0 20px 0px;	
+        border-left: 2px dotted #b2a497;
+      }
+      body > section h2 {
+        font: 14pt Helvetica,"Helvetica neue", Arial, sans-serif;	
+        font-weight: lighter;
+        text-transform: uppercase;	color: #493831;
+        padding-bottom: 10px;	
+	margin: 0;
+      }      
+      nav { 
+	text-align: center;		
+      }
+      nav a{
+	padding: 30px;
+      }
+      aside{	
+        float: left;
+        width: 20%;	
+        min-height: 480px;
+        margin: 0 0 20px 0;
+      }
+      footer{	clear:both;
+        height: 100px;	
+        padding: 10px;
+        color:#200f08 ;	
+        background:#ddd3bf;
+          /*Opacity*/
+        filter:alpha(opacity=50); /* msie */  	
+        -moz-opacity: 0.50; /* firefox 1.0 */  
+        -khtml-opacity: 0.50; /* webkit */  	
+        opacity: 0.50; /* css 3 */
+        /*Gradient*/
+        background-image: -moz-linear-gradient(top, #ddd3bf, #bcae91); /* FF3.6 */	
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #ddd3bf),color-stop(1, #bcae91)); /* Saf4+, Chrome *
+        filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd3bf', EndColorStr='#bcae91');   /* IE6,IE7 */	
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd3bf', EndColorStr='#bcae91')"; /* IE8 */
+        /*Round corners*/
+        -moz-border-radius: 12px; /* FF1+ */	-webkit-border-radius: 12px; /* Saf3+, Chrome */
+        border-radius: 12px; /* Opera 10.5, IE 9 */
+      }
+        form div 
+      {
+        padding:10px;
+      }
+      form div > label
+      {
+        display: block;
+        width: 100%;
+      }
+</style>
+     </head>
+  <body>
+    <header>
+      <h1> Bienvenido a la Web de Eduardo Gras Moreno </h1>
+      <picture> <img src="imagenes/egm.jpg"> </picture> </header>
+    <nav> <a href="ejerciciosTema2/nosotros.html">Nosotros</a> <a href="ejerciciosTema2/nuestrosServicios.html">Nuestros
+        servicios</a> <a href="ejerciciosTema3/opinion.html">Tu opinión cuenta</a></nav>
+    <aside>
+      <h2> Conócenos mejor </h2>
+      <section>
+        <h3> Noticias destacadas </h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id
+          feugiat mauris. Orci varius natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Aliquam in orci non neque finibus
+          varius. Proin id semper orci. Vestibulum maximus tellus at ligula
+          dignissim, a cursus lorem ullamcorper. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Nulla at orci est. Cras et nibh
+          vestibulum, gravida metus eget, accumsan orci. Nulla vel sapien sem.
+          Etiam ultricies orci risus, quis sagittis felis posuere quis. </p>
+        <p> Duis blandit lorem nec maximus suscipit. Nunc rutrum scelerisque ex
+          sit amet interdum. Praesent volutpat vulputate orci, a tincidunt ex
+          fermentum eget. Proin eleifend eget eros vitae ornare. Maecenas non
+          luctus ipsum. Nullam consequat egestas finibus. Phasellus congue odio
+          mattis lacus luctus, sagittis molestie lectus vehicula. Cras tincidunt
+          placerat ipsum in tincidunt. Vivamus finibus tincidunt finibus. Ut eu
+          porttitor ligula. Nunc eu lorem ut tellus vestibulum malesuada eget
+          eget nisi. Aliquam commodo sollicitudin sem, at vulputate sapien
+          bibendum at. </p>
+      </section>
+      <section>
+        <h3> Colaboradores </h3>
+        <p> Curabitur maximus elementum auctor. In sit amet ligula sed lorem
+          sagittis scelerisque. Vivamus pharetra, quam vitae cursus vehicula,
+          nunc ex ornare turpis, eu luctus massa ligula eget metus. Cras sit
+          amet auctor odio. Nullam rhoncus, lectus ac molestie egestas, ligula
+          arcu mollis justo, eu posuere elit turpis sit amet nisi. Sed placerat
+          elementum quam non tempus. Cras at fermentum eros, ut feugiat lacus.
+          Praesent eget commodo eros. Nulla felis ligula, semper ac congue in,
+          lobortis a nunc. Vestibulum ante ipsum primis in faucibus orci luctus
+          et ultrices posuere cubilia Curae; Ut iaculis porta augue. Fusce
+          dapibus sapien quis nunc pulvinar tempor. Proin hendrerit rhoncus
+          risus sit amet luctus. Aliquam sed nulla ac magna dapibus ornare ac
+          sed purus. Aenean condimentum posuere turpis sit amet accumsan.
+          Vivamus vel ante in nibh lobortis commodo. </p>
+        <p> Cras imperdiet ligula quis fringilla egestas. Cras vestibulum nulla
+          non libero bibendum sagittis. Integer ut est convallis, efficitur
+          augue a, imperdiet dolor. Mauris cursus dignissim auctor. Quisque nec
+          magna et nisi maximus imperdiet. Morbi faucibus felis elementum
+          sagittis maximus. Vestibulum id ante porttitor enim tincidunt
+          convallis sed sit amet mauris. Nam vehicula varius ipsum, vitae
+          lobortis justo finibus eu. Fusce nec ultricies tellus, vel lobortis
+          enim. Duis ultricies libero at odio luctus laoreet. Sed dignissim eros
+          quis ante hendrerit, in cursus risus laoreet. Vivamus eu ligula eu
+          tellus viverra malesuada eget at sapien. Sed suscipit malesuada
+          tincidunt. Duis vestibulum eros nec pharetra pharetra. Mauris
+          sollicitudin imperdiet purus, sit amet congue nisi aliquet euismod. </p>
+      </section>
+    </aside>
+    <section>
+      <header>
+        <h1> Artículos sobre Educación Superior </h1>
+        <h2> Ahora vienen los artículos sobre Educación Superior </h2>
+      </header>
+      <article>
+        <h3> Artículo 1 </h3>
+        <p> Nullam nec justo consequat, mollis justo quis, mollis mauris. Morbi
+          a sollicitudin risus. Nullam iaculis nunc sem, at pretium augue
+          molestie in. Vestibulum mattis, enim nec volutpat molestie, nisi nunc
+          dapibus ipsum, eget volutpat libero nisl vel sem. Vestibulum
+          sollicitudin tellus purus, eget interdum augue ullamcorper vel.
+          Integer eu pretium nisi, sodales consequat orci. Vivamus scelerisque
+          pellentesque erat, vel efficitur lectus tincidunt a. Duis tellus
+          dolor, porttitor egestas neque quis, ultrices commodo est. Etiam neque
+          leo, luctus quis risus eget, convallis mattis erat. Suspendisse sit
+          amet massa mi. </p>
+      </article>
+      <article>
+        <h3> Artículo 2 </h3>
+        <p> Praesent odio libero, euismod a sem vitae, condimentum sagittis
+          risus. Sed vitae neque mattis, feugiat orci vitae, dictum mauris.
+          Donec hendrerit nec purus eu dapibus. Cras sed ultricies ante, nec
+          tincidunt purus. Curabitur id eros nec sem aliquam molestie vel sed
+          eros. Sed et orci imperdiet, varius sem non, porta eros. Suspendisse
+          sed ligula ac dui blandit mattis. Nam sagittis massa sed pharetra
+          mattis. </p>
+      </article>
+      <footer>
+        <h4> Autor: Eduardo Gras Moreno </h4>
+        <p> Marzo 2018 </p>
+      </footer>
+    </section>
+    <section>
+      <header>
+        <h1> Artículos sobre Tecnología </h1>
+        <h2> Ahora vienen los artículos sobre Tecnología </h2>
+      </header>
+      <article>
+        <h3> Artículo 1 </h3>
+        <p> Mauris libero tellus, dictum nec bibendum vel, scelerisque sit amet
+          nisl. Aliquam condimentum, magna id scelerisque finibus, libero urna
+          aliquet nisl, lacinia placerat turpis arcu id velit. Duis mauris nisl,
+          malesuada nec diam nec, sollicitudin pellentesque risus. Fusce
+          fringilla, massa ac viverra vulputate, nisl tortor mollis sapien, sed
+          cursus velit libero quis ipsum. Nam porttitor, metus quis elementum
+          commodo, orci augue cursus purus, eu congue quam odio ut metus.
+          Pellentesque nec dapibus turpis. Ut justo felis, consequat ut libero
+          a, elementum cursus dolor. Aliquam lorem sem, efficitur non enim ac,
+          efficitur ultrices justo. Aliquam erat volutpat. Pellentesque ut
+          sapien congue, sodales ex ac, interdum velit. Ut ut convallis erat.
+          Nulla quis faucibus nisl, sit amet malesuada turpis. </p>
+      </article>
+      <article>
+        <h3> Artículo 2 </h3>
+        <p> Curabitur ac imperdiet felis. Morbi sodales purus sed molestie
+          consectetur. Sed scelerisque ultricies maximus. Nulla in odio eu eros
+          viverra interdum. Phasellus venenatis magna sit amet magna
+          condimentum, non gravida metus congue. Fusce pharetra tincidunt sapien
+          vitae semper. Pellentesque id rhoncus augue, ut rutrum erat. Integer
+          commodo iaculis magna vel finibus. Nulla iaculis tortor enim. Ut neque
+          nisl, aliquam in tincidunt id, tincidunt in nibh. Donec justo enim,
+          finibus id molestie non, accumsan id lacus. Sed pellentesque dapibus
+          egestas. Vivamus in turpis a lacus ultrices ultricies et vitae eros.
+          Aliquam lacinia tincidunt nisi, nec efficitur velit venenatis eget.
+          Nulla sit amet ipsum tellus.</p>
+      </article>
+      <footer>
+        <h4> Autor: Eduardo Gras Moreno </h4>
+        <p> Marzo 2018 </p>
+      </footer>
+    </section>
+    <footer>
+      <p> Eduardo Gras Moreno </p>
+      <p> Marzo 2018 </p>
+    </footer>
+</body></html>
