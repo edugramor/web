@@ -16,10 +16,9 @@
     <p class="parrafo">Nombre de la empresa: Universidad de Alicante</p>
     <p class="parrafo">Actividad de la empresa: Enseñanza Superior</p>
     <p><img src="../imagenes/logo-ua.jpg"></p>
-    <nav> <a href="../ejerciciosTema4/nuestrosServicios.html"> - Nuestros Servicios - </a> <a href="../index.html">
+    <nav> <a href="nuestrosServicios.html"> - Nuestros Servicios - </a> <a href="../index.html">
         - Página principal - </a> <a href="https://github.com/edugramor/web">
         - Mi repositorio - </a> <a href="mailto:eduardo.gras@ua.es"> - Mi
         correo electrónico - </a> </nav>
-    
   </body>
 </html>

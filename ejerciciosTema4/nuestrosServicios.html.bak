@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Nuestros Servicios</title>
+    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="../css/miCss.css">
+  </head>
+  <body>
+    <header class="row">
+      <h1 class="col-md-10 col-sm-6 col-12">Universidad de Alicante</h1>
+      <picture class="col-md-2 col-sm-6 col-12"> 
+        <img src="../imagenes/logo_empresa_lr.png" alt="Universidad de Alicante">
+      </picture> 
+    </header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="collapse navbar-collapse"> 
+        <a class="navbar-brand" href="../ejerciciosTema2/nosotros.html">Nosotros</a>
+        <a class="navbar-brand" href="../ejerciciosTema2/nuestrosServicios.html">Nuestros Servicios</a> 
+        <a class="navbar-brand" href="../index.html">Atrás</a>
+      </div>
+      <button class="navbar-toggler" type="button"> 
+        <span class="navbar-toggler-icon"></span> 
+      </button>
+      <form class="form-inline"> 
+        <input class="form-control" placeholder="Buscar..." type="text"> 
+        <button class="btn btn-outline-success" type="submit">Buscar!</button>
+      </form>
+    </nav>
+    <section class="row">
+      <header class="col-md12 col-sm-12 col-12">
+        <h2>Servicios ofrecidos</h2>
+      </header>
+      <article class="col-md-4 col-sm-8 col-12">
+        <h3>Docencia</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non magna faucibus, euismod dui et, varius neque. Quisque a urna nibh. Aliquam nunc nunc, faucibus ac eros sit amet, elementum pretium orci. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique fringilla pretium. Vivamus quis diam tempor, venenatis elit quis, eleifend nisl. Donec gravida nisl aliquet dignissim vulputate. Cras ultricies luctus scelerisque. Nulla facilisi. Integer auctor finibus laoreet. Proin et pharetra justo. Quisque faucibus nulla ac leo efficitur feugiat. In ac volutpat nisi, sit amet vulputate lectus. Cras quis mollis odio, vitae feugiat metus.
+        </p>
+      </article>
+      <article class="col-md-4 col-sm-8 col-12">
+        <h3>Investigación</h3>
+        <p>
+          Duis accumsan sodales lorem ut imperdiet. Nulla vel suscipit lorem, nec efficitur elit. Sed suscipit sapien quis elit tristique, ut scelerisque nisl imperdiet. Nunc molestie odio quis hendrerit mollis. Aliquam lacus dolor, tincidunt sed pharetra nec, mollis sit amet metus. Mauris id interdum odio. Nulla hendrerit, enim sollicitudin egestas tempor, tellus lorem mollis ligula, sed lobortis quam diam sed arcu. Nam eget felis sit amet libero dignissim dictum. Integer dolor dui, suscipit imperdiet odio ut, convallis varius nunc. Integer finibus sed sem at tincidunt. Sed turpis sem, suscipit non nulla ac, interdum bibendum est.
+        </p>
+      </article>
+      <article class="col-md-4 col-sm-8 col-12">
+        <h3>Universidad permanente</h3>
+        <p>
+          Sed convallis tellus eu ante eleifend, sed mollis nunc fringilla. Sed ac odio euismod, tempus orci ut, dictum velit. Integer nec porta est. Aliquam arcu massa, gravida quis congue eu, aliquam in risus. Cras mollis non nunc quis lobortis. Nam aliquam dui ac est viverra iaculis. Duis nisl sapien, vehicula sit amet orci eget, consequat scelerisque sapien. Maecenas vel tristique urna. Duis urna neque, volutpat a odio laoreet, aliquam mollis quam. In varius odio at leo tempus dictum. Phasellus ac mollis dui, eget pretium elit. Curabitur nec pretium urna.
+        </p>
+      </article>
+    </section>
+    <footer>
+      <p>Eduardo Gras Moreno</p>
+      <p>Abril 2018</p>
+    </footer>
+  </body>
+</html>

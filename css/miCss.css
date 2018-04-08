@@ -1,0 +1,34 @@
+body > header{ margin-top: 60px; }
+
+nav a{
+  border:dotted yellow 2px;
+  padding:15px
+}
+
+nav a:hover{
+  border:dotted green 2px;
+  color:red;
+}
+
+section article p{
+  padding: 2em 1em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  background-color: #ced0c8;
+  border-radius: 1em;
+}
+
+h1 {
+  font-family: 'Racing Sans One', cursive;
+  color:#054f6e;
+}
+
+h2 {
+  font-family: 'Racing Sans One', cursive;
+  color:#de5406;
+}
+
+h3 {
+  font-family: 'Racing Sans One', cursive;
+  color:#f8d753;
+}
